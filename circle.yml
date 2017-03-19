@@ -1,0 +1,14 @@
+machine:
+  timezone:
+    America/Los_Angeles
+
+  ruby:
+    version:
+      rbx-2.2.6
+
+  hosts:
+    circlehost: 127.0.0.1
+
+  
+  override:
+    mvn clean install
