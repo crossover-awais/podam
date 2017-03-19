@@ -10,6 +10,6 @@ machine:
     circlehost: 127.0.0.1
 
   
-  test:
-    override:
-      mvn clean install
+test:
+  override:
+    mvn clean install
